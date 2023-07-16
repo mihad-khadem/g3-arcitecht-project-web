@@ -3,3 +3,31 @@
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Header Section  */
+header{
+    background-color: rgba(255, 144, 14, 0.10);  
+    padding: 50px 250px;  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.8rem;
+}
+nav > ul{
+    display: flex;
+    justify-content: ;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
