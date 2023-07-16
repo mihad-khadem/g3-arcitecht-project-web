@@ -46,24 +46,30 @@ nav li a{
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 150px;
 }
 .banner-title{
     font-size: 4rem;
     font-weight: 700;
     color: #131313;
+    margin: 10px;
 }
 .banner-des{
     color: #181818;
+    margin: 10px;
 }
 
 .banner img{
-    margin-top: 20px;
+    margin: 30px auto;
     width: 100;
+}
+.banner button{
+    margin: 20px;
 }
 
 /* Renponsive Media Queries */
 /* Mobile Device */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 851px) {
     header{
         padding: 20px;
     }
@@ -71,4 +77,14 @@ nav li a{
         flex-direction: column;
     }
 
+}
+
+/* Tablet Device */
+@media screen and (min-width: 576px) and (max-width: 1024px){
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
