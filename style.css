@@ -3,6 +3,15 @@
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #fff;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0px;
+}
 
 /* Header Section  */
 header{
@@ -30,4 +39,36 @@ nav li {
 nav li a{
     text-decoration: none;
     color: #424242;
+}
+
+/* Banner Styles */
+.banner-contant{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-des{
+    color: #181818;
+}
+
+.banner img{
+    margin-top: 20px;
+    width: 100;
+}
+
+/* Renponsive Media Queries */
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+
 }
